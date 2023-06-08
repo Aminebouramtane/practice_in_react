@@ -13,7 +13,7 @@ const ProductComponent = (props) => {
             <div className="card-body">
                 <h5 className="card-title">{props.products.title}</h5>
                 <p className="card-text">{props.products.description}</p>
-                <Button disabled >{props.products.price}$</Button>
+                <Button className='btn btn-warning' disabled >{props.products.price}$</Button>
             </div>
             <div className="card-footer">
                 <small className="text-muted">Category : {props.products.category}</small>
