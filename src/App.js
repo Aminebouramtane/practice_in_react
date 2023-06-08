@@ -1,8 +1,8 @@
 import './App.css';
-import Welcome from './components/Welcome';
-import WelcomeCC from './components/WelcomeCC';
-import Event from './components/Event';
-import Event2 from './components/Event2';
+import Welcome from './components/components_state_props_handling_events/Welcome';
+import WelcomeCC from './components/components_state_props_handling_events/WelcomeCC';
+import Event from './components/components_state_props_handling_events/Event';
+import Event2 from './components/components_state_props_handling_events/Event2';
 
 function App() {
   return (
